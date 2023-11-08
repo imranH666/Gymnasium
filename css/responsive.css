@@ -1,0 +1,479 @@
+@media (max-width: 575.98px){    /* For small potrait */
+    #nav {
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .menu i {
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        font-size: 25px;
+        cursor: pointer;
+        display: block;
+    }
+    .menu ul {
+        flex-direction: column;
+        width: 150px;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        background-color: rgba(241, 236, 236, 0.541);
+        padding: 20px;
+        backdrop-filter: blur(20px);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        display: none;
+    }
+
+    .visible_menu_box {
+        display: block !important;
+    }
+
+    .menu ul li a {
+        padding: 5px 15px;
+    }
+    .logo {
+        width: 150px;
+        margin-left: 10px;
+        padding: 15px 10px;
+        top: 0;
+    }
+    .logo img {
+        width: 100%;
+    }
+
+    #banner {
+        padding: 50px 0;
+    }
+    .banner-main {
+        margin-top: 100px;
+    }
+    .banner-text h3 {
+        font-size: 20px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+    }
+    .banner-btn {
+        margin-top: 30px;
+    }
+    .banner-text p {
+        font-size: 15px;
+        padding: 20px 20px 0 20px;
+    }
+    .banner-btn a {
+        padding: 10px;
+        border: 1px solid #fff;
+        width: 120px;
+        margin: 10px;
+    }
+    .banner-btn a:hover {
+        border: 1px solid transparent;
+    }
+
+    #about {
+        padding: 50px 0;
+    }
+    .about-main {
+        flex-direction: column;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .about-text h3 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .gallery-head {
+        margin-bottom: 30px;
+    }
+    .gallery-head h3 {
+        font-size: 25px;
+    }
+    .gallery-main {
+        flex-wrap: wrap;
+    }
+    .gallery-items {
+        width: 100%;
+    }
+    .g-img img {
+        margin-right: 0;
+    }
+    .img-over{
+        left: 15px;
+    }
+
+    #team {
+        padding: 40px 0;
+    }
+    .team-main {
+        flex-wrap: wrap;
+    }
+    .team-items {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .testi-main {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .testi-items {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #membership {
+        padding: 40px 0;
+    }
+    .member-main {
+        flex-wrap: wrap;
+    }
+    .member-one {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .member-one h2 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .member-two {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .member-two h2 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .member-three {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .member-three h2 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    #counter {
+        padding: 30px 0;
+    }
+    .counter-main {
+        flex-wrap: wrap;
+    }
+    .counter-one {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .counter-one h3 {
+        font-size: 20px;
+    }
+    .counter-one p {
+        font-size: 14px;
+    }
+
+    #class {
+        padding: 40px 0;
+    }
+    .nav-class ul {
+        flex-wrap: wrap;
+    }
+    .nav-class ul li a {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .class-icon {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    .class-items {
+        width: 100%;
+        margin: 3px;
+    }
+    
+    .l-logo {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .l-items {
+        margin: 4px 0;
+    }
+
+    .footer-main {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .footer-one {
+        width: 100%;
+    }
+    .footer-two {
+        width: 100%;
+    }
+    .footer-three {
+        width: 100%;
+    }
+    .footer-four {
+        width: 100%;
+    }
+    .footer-menu ul {
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){    /* For small landscape */
+    #nav {
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .menu i {
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        font-size: 25px;
+        cursor: pointer;
+        display: block;
+    }
+    .menu ul {
+        flex-direction: column;
+        width: 150px;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        background-color: rgba(241, 236, 236, 0.541);
+        padding: 20px;
+        backdrop-filter: blur(20px);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        display: none;
+    }
+
+    .visible_menu_box {
+        display: block !important;
+    }
+
+    .menu ul li a {
+        padding: 5px 15px;
+    }
+    .logo {
+        width: 150px;
+        margin-left: 10px;
+        padding: 15px 10px;
+        top: 0;
+    }
+    .logo img {
+        width: 100%;
+    }
+
+    #banner {
+        padding: 50px 0;
+    }
+    .banner-main {
+        margin-top: 100px;
+    }
+    .banner-text h3 {
+        font-size: 20px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+    }
+    .banner-btn {
+        margin-top: 30px;
+    }
+    .banner-text p {
+        font-size: 15px;
+        padding: 20px 20px 0 20px;
+    }
+    .banner-btn a {
+        padding: 10px;
+        border: 1px solid #fff;
+        width: 120px;
+        margin: 10px;
+    }
+    .banner-btn a:hover {
+        border: 1px solid transparent;
+    }
+
+    #about {
+        padding: 50px 0;
+    }
+    .about-main {
+        flex-direction: column;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .about-text h3 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .gallery-head {
+        margin-bottom: 30px;
+    }
+    .gallery-head h3 {
+        font-size: 25px;
+    }
+    .gallery-main {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .gallery-items {
+        width: 47%;
+    }
+    .g-img img {
+        margin-right: 0;
+    }
+    .img-over{
+        left: 15px;
+    }
+
+    #team {
+        padding: 40px 0;
+    }
+    .team-main {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .team-items {
+        width: 47%;
+        margin-right: 0;
+    }
+
+    .testi-main {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .testi-items {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #membership {
+        padding: 40px 0;
+    }
+    .member-main {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .member-one {
+        width: 47%;
+        margin: 10px 0;
+    }
+    .member-one h2 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .member-two {
+        width: 47%;
+        margin: 10px 0;
+    }
+    .member-two h2 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .member-three {
+        width: 47%;
+        margin: 10px 0;
+    }
+    .member-three h2 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    #counter {
+        padding: 30px 0;
+    }
+    .counter-main {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .counter-one {
+        width: 33%;
+        margin: 10px 0;
+    }
+    .counter-one h3 {
+        font-size: 20px;
+    }
+    .counter-one p {
+        font-size: 14px;
+    }
+
+    #class {
+        padding: 40px 0;
+    }
+    .nav-class ul {
+        flex-wrap: wrap;
+    }
+    .nav-class ul li a {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .class-icon {
+        margin-top: 20px;
+        padding: 0 20px;
+        justify-content: space-around;
+    }
+    .class-items {
+        width: 49%;
+        margin: 3px;
+    }
+    
+    .l-logo {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .l-items {
+        margin: 4px 0;
+    }
+
+    .footer-main {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .footer-one {
+        width: 100%;
+    }
+    .footer-two {
+        width: 100%;
+    }
+    .footer-three {
+        width: 100%;
+    }
+    .footer-four {
+        width: 100%;
+    }
+    .footer-menu ul {
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){    /* For mediam tablet */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+}
+
+@media (min-width: 1400px){ 
+}
